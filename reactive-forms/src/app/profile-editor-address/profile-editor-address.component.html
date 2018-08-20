@@ -1,0 +1,19 @@
+<div [formGroup]="group">
+    <h2>Address</h2>
+    <label class="container-fluid">
+      Street:
+      <input type="text" [formControlName]="'street'">
+    </label>
+    <label class="container-fluid">
+      City:
+      <input type="text" [formControlName]="'city'">
+    </label>
+    <label class="container-fluid">
+      State:
+      <input type="text" [formControlName]="'state'">
+    </label>
+    <label class="container-fluid">
+      Zip Code:
+      <input type="text" [formControlName]="'zip'">
+    </label>
+</div>
